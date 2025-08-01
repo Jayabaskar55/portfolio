@@ -124,7 +124,7 @@ export default function Contact() {
       {/* Social Media Links */}
       <div className="mt-8 flex justify-center gap-6 text-2xl text-gray-400">
         <a
-          href="https://instagram.com/yourusernamehttps://www.instagram.com/__bask.a.r__?igsh=MW04dHg0ZmtmazhzaQ=="
+          href="https://www.instagram.com/__bask.a.r__?igsh=MW04dHg0ZmtmazhzaQ=="
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-pink-500 transition"
@@ -140,7 +140,7 @@ export default function Contact() {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/Jayabaskarhttps://github.com/Jayabaskar5555"
+          href="https://github.com/Jayabaskar5555"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition"

@@ -4,7 +4,25 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
 import AnimatedBackground from "./components/AnimatedBackground";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
+<ToastContainer
+  position="top-right"
+  autoClose={3000}
+  hideProgressBar={false}
+  newestOnTop={false}
+  closeOnClick
+  pauseOnHover
+  draggable
+  theme="dark"
+  toastStyle={{
+    background: "#1f1f1f",
+    color: "#fff",
+    fontWeight: "bold",
+    borderRadius: "8px",
+  }}
+/>
 export default function App() {
   const aboutRef = useRef(null);
   const experienceRef = useRef(null);
