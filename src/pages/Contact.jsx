@@ -140,7 +140,7 @@ export default function Contact() {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/Jayabaskar5555"
+          href="https://github.com/Jayabaskar55"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition"
